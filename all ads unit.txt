@@ -1,0 +1,85 @@
+marchant of venice app ads unit
+
+app id:         ca-app-pub-2803604431505982~8749994773
+
+banner ad unit:    ca-app-pub-2803604431505982/7436913103
+
+interstitial ad unit:   ca-app-pub-2803604431505982/9871504754
+
+open ad unit:        ca-app-pub-2803604431505982/1769068311
+
+native ad unit:     ca-app-pub-2803604431505982/3720306246
+
+----------------------------------------------------------------------------------
+
+The Tempest app ads unit
+
+app id:        ca-app-pub-2803604431505982~7278374273
+
+banner ad unit:      ca-app-pub-2803604431505982/2129989377
+
+interstitial ad unit:     ca-app-pub-2803604431505982/4652210933
+
+open ad unit:    ca-app-pub-2803604431505982/9264414957
+
+native ad unit:   ca-app-pub-2803604431505982/9090685446
+
+------------------------------------------------------------------------------------
+
+chs preparation app
+
+
+app id:      ca-app-pub-2803604431505982~6066767329
+
+banner ad unit:      ca-app-pub-2803604431505982/9814440641
+
+interstitial ad  :    ca-app-pub-2803604431505982/1935950623
+
+open ad unit:      ca-app-pub-2803604431505982/7568189900
+
+native ad unit:     ca-app-pub-2803604431505982/4718473390
+
+----------------------------------------------------------------------------------------
+
+previous year paper
+
+app id:       ca-app-pub-2803604431505982~7429806107
+
+banner ad unit:       ca-app-pub-2803604431505982/3670524499
+
+interstitial ad unit:     ca-app-pub-2803604431505982/7418197818
+
+open ad unit:         ca-app-pub-2803604431505982/5871964855
+
+native ad unit:        ca-app-pub-2803604431505982/6588629278
+
+
+---------------------------------------------------------------------------------------
+Ressonic Music player
+
+
+app id:   
+
+banner ad unit:    
+
+interstitial ad unit:  
+
+open ad unit:
+
+native ad unit:
+
+
+
+---------------------------------------------------------------------------------------------
+
+Indian Navy
+
+app id:     ca-app-pub-2803604431505982~5792194294
+
+banner ad unit:       ca-app-pub-2803604431505982/4479112627
+
+interstitial ad unit:     ca-app-pub-2803604431505982/6913704273
+
+open ad unit:     ca-app-pub-2803604431505982/5304988649
+
+native ad unit:    ca-app-pub-2803604431505982/8390781631

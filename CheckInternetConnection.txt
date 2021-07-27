@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".NoInternetActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="200dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        android:src="@drawable/nointernetconnectionimage"></ImageView>
+
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_below="@+id/one"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:text="Enable the Internet Connection to View Content"></TextView>
+
+
+
+</RelativeLayout>
+
+
+
+
+ if(hasConnection(MainActivity.this))
+        {
+            Intent intent=new Intent(MainActivity.this,MainActivity2.class);
+            startActivity(intent);
+        }
+
+        else
+        {
+            Intent intent=new Intent(MainActivity.this,NoInternetActivity.class);
+            startActivity(intent);
+        }
+
+
+
+
+    public boolean hasConnection(final Context context) {
+
+        ConnectivityManager cm=(ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo wifiNetwork=cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+
+        if(wifiNetwork!=null && wifiNetwork.isConnected())
+        {
+            return true;
+        }
+        NetworkInfo mobileNetwork=cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+        if(mobileNetwork!=null && mobileNetwork.isConnected())
+        {
+            return  true;
+        }
+        NetworkInfo activeNetwork=cm.getActiveNetworkInfo();
+        if(activeNetwork!=null && activeNetwork.isConnected())
+        {
+            return  true;
+        }
+        return  false;
+    }
